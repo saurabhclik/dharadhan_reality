@@ -1,5 +1,6 @@
 @php
     $enable_full_div_click = $enable_full_div_click ?? true;
+    
 @endphp
 
 <div class="relative overflow-hidden border border-gray-200 dark:border-gray-700 rounded-lg bg-white px-4 pb-12 pt-5 shadow sm:px-6 sm:pt-6 dark:bg-gray-800 {{ $enable_full_div_click ? 'cursor-pointer hover:shadow-lg transition-shadow duration-300' : '' }}"

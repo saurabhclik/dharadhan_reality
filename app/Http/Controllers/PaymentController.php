@@ -25,6 +25,7 @@ class PaymentController extends Controller
 
     public function createOrder(Request $request)
     {
+        // dd($request->all());
         $request->validate([
             'amount' => 'required|numeric',
             'plan_type' => 'required|string',
