@@ -1029,7 +1029,7 @@
             {
                 const amount = {{ getPlan(session()->get('designation.plan_type'))['price'] }};
                 const planType = '{{ session()->get('designation.plan_type') }}';
-                const planDuration = 'monthly';
+                const planDuration = 'yearly';
                 
                 $(this).prop('disabled', true);
                 $(this).html('<i class="fas fa-spinner fa-spin"></i> Processing...');
